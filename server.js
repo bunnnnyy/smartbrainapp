@@ -11,10 +11,10 @@ import * as image from './controllers/images.js';
 const db = knex({
     client: 'pg',
     connection: {
-      connectString : process.env.DATABASE_URL,
-      ssl : {
-          rejectUnauthorized : false
-      }
+        connectionString: process.env.DATABASE_URL,
+        ssl: {
+          rejectUnauthorized: false
+        }
     }
   });
 
