@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../code"
+		},
+		{
+			"path": "../brain"
+		},
+		{
+			"path": "../brain1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"explorer.compactFolders": false
+	}
+}
