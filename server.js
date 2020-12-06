@@ -55,8 +55,8 @@ app.post('/imagesurl' , (req , res)=> {
     image.apihandle(req , res) 
 })
 
-app.listen(5000 , () => {
-    console.log("app is running");
+app.listen(process.env.PORT || 3000 , () => {
+    console.log(`app is running at ${process.env.PORT}`);
 } )
 
 // signin - post 
